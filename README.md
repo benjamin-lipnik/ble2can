@@ -4,7 +4,8 @@ Kail uVision 5 Projekt. Zacetne nastavitve so bile ustavarjenje s programom STM3
 Mikrokrmilnik, ki sem ga uporabil je Nucleo-F446RE. Je pa migracija na ostale mikrokrmilnike zelo enostavna.
 uVision projekt se nahaja v mapi MDK-ARM.
 
-Videoposnetek prikaza delovanja se nahaja na: https://youtu.be/PXILkQ6B3jg .
+Prikaz delovanja:
+<iframe width="660" height="371" src="https://www.youtube.com/embed/PXILkQ6B3jg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Električna shema:
 <img src="./BLE2CAN_interface_shield.svg">
