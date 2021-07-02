@@ -1,0 +1,28 @@
+--cpu=Cortex-M4.fp.sp
+"bl_uart2can\startup_stm32f446xx.o"
+"bl_uart2can\main.o"
+"bl_uart2can\stm32f4xx_it.o"
+"bl_uart2can\stm32f4xx_hal_msp.o"
+"bl_uart2can\stm32f4xx_hal_can.o"
+"bl_uart2can\stm32f4xx_hal_rcc.o"
+"bl_uart2can\stm32f4xx_hal_rcc_ex.o"
+"bl_uart2can\stm32f4xx_hal_flash.o"
+"bl_uart2can\stm32f4xx_hal_flash_ex.o"
+"bl_uart2can\stm32f4xx_hal_flash_ramfunc.o"
+"bl_uart2can\stm32f4xx_hal_gpio.o"
+"bl_uart2can\stm32f4xx_hal_dma_ex.o"
+"bl_uart2can\stm32f4xx_hal_dma.o"
+"bl_uart2can\stm32f4xx_hal_pwr.o"
+"bl_uart2can\stm32f4xx_hal_pwr_ex.o"
+"bl_uart2can\stm32f4xx_hal_cortex.o"
+"bl_uart2can\stm32f4xx_hal.o"
+"bl_uart2can\stm32f4xx_hal_exti.o"
+"bl_uart2can\stm32f4xx_hal_tim.o"
+"bl_uart2can\stm32f4xx_hal_tim_ex.o"
+"bl_uart2can\stm32f4xx_hal_uart.o"
+"bl_uart2can\system_stm32f4xx.o"
+"bl_uart2can\bco.o"
+--library_type=microlib --strict --scatter "BL_UART2CAN\BL_UART2CAN.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "BL_UART2CAN.map" -o BL_UART2CAN\BL_UART2CAN.axf
