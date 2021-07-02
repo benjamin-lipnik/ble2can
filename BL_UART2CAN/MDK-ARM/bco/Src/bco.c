@@ -220,7 +220,7 @@ void bco_hex_str_to_int(char* hex, void* data_in) {
 			hex++;
 		else if(hex[1] == 'x' || hex[1] == 'X')
 			hex+=2;
-		if(!hex)
+		if(!*hex)
 				return;
 
 		uint8_t hex_len = strlen(hex);
